@@ -7,3 +7,7 @@ An example of Spring Security authentication and authorization with JWT using di
 This project includes a MySQL script `db_example.sql` to create the database tables
 
 Note: the entity "User" should be renamed to "Employee" but I'm too lazy to do it now.
+
+## TODO
+- Make JWT secret key and expiration time configurable (add them to application.properties)
+- Use refresh tokens
